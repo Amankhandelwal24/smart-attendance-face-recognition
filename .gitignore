@@ -1,0 +1,18 @@
+# Virtual environment and Python cache
+venv/
+__pycache__/
+*.pyc
+
+# Private data: never upload these
+dataset/
+trainer/
+backup/
+reports/
+*.db
+admin_credentials.json
+
+# Downloaded file (the README explains how to get it)
+haarcascade/*.xml
+
+# Editor settings
+.vscode/
